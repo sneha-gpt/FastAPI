@@ -2,7 +2,7 @@
   "name": "FastAPI with uv",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
 
-  "postCreateCommand": "pip install uv && uv pip install -r requirements.txt",
+  "postCreateCommand": "pip install uv && uv venv && .venv/bin/pip install -r requirements.txt",
 
   "customizations": {
     "vscode": {
